@@ -10,7 +10,8 @@ stages{
 
 stage('checkout'){
 steps{
-sh 'mvn clean package'
+git branch:'master',url:'https://github.com/Sach791/maven7.git'
+
 }
 }
 
