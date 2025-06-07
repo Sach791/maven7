@@ -17,7 +17,7 @@ git branch:'master',url:'https://github.com/Sach791/maven7.git'
 
 stage('build'){
 steps{
-sh 'mvn build'
+sh 'mvn build clean package'
 }
 }
 
