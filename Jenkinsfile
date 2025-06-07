@@ -28,7 +28,7 @@ sh 'mvn test'
 
 stage('Run Application'){
 steps{
-sh 'java -jar target/maven7-1.0-SNAPSHOT.jar
+sh 'java -jar target/maven7-1.0-SNAPSHOT.jar'
 }
 }
 }
