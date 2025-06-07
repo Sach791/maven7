@@ -10,7 +10,7 @@ pool:
   name:Default
 
 steps:
-- script: echo Hello, world!
-- script: mvn clean package
+
+- script: mvn clean install
 - script: java -jar target/maven7-1.0-SNAPSHOT.jar
   
